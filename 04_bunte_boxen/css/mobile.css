@@ -1,0 +1,17 @@
+@media screen and (max-width: 600px) {
+    #wrapper {
+        width: 100vw;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 80px 100px auto 100px 60px;
+    }
+
+    header,
+    nav,
+    footer {
+        grid-column: span 1;
+    }
+
+    aside {
+        grid-row: span 1;
+    }
+}
